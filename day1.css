@@ -1,0 +1,56 @@
+    .btns {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        border: white;
+    }
+
+    h1 {
+        text-align: center;
+        color: black;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+
+    .loginbtn {
+        background-color: #213D77;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .trainbtn {
+        color: #E00000;
+        background-color: white;
+        border: white;
+    }
+
+    .cashbackbtn {
+        font-family: monospace;
+        background-color: #213D77;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .contactbtn {
+        background-color: orange;
+    }
+
+    .parent-container {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+    }
+
+    .home img {
+        height: 15px;
+        width: 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+
+    }
