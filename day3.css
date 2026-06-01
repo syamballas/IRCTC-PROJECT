@@ -1,0 +1,53 @@
+  h2 {
+      text-align: center;
+  }
+
+  .card-container {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(3, 18rem);
+      gap: 30px;
+
+  }
+
+  .card {
+      border: 2px solid lightgray;
+  }
+
+  .card img {
+      width: 18rem;
+
+  }
+
+  .card-body {
+      padding: 15px;
+  }
+
+  .card-text {
+      text-align: left;
+  }
+
+   @media(max-width:768px) {
+
+        .parent-container,
+        .second-parent-container,
+        .third-parent-container,.card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0px;
+
+        }
+
+        .third-parent-container {
+            margin-top: 3px;
+        }
+
+        .item {
+            width: 45%;
+
+        }
+        .card{
+            width: 45%;
+        }
+    }
